@@ -7,16 +7,22 @@ AI sales-call coaching loop. Paste a call transcript, get back specific, actiona
 ## Stack
 
 - **Next.js** (App Router) + **TypeScript**
-- **Anthropic SDK** — Claude **Opus 4.8** (`claude-opus-4-8`)
-- **Tailwind CSS**
+- **Anthropic SDK** — Claude **Opus 4.8** (`claude-opus-4-8`) for scoring/coaching/re-score
+- **ElevenLabs Agents** — realtime voice drill, Claude as the brain
+- **Tailwind CSS + shadcn/ui** — mobile-first component layer
+- **Neon Postgres**
 
-## Quickstart
+## Quickstart (fork-and-run)
+
+Fork it, add your own keys, run the whole loop on your own accounts:
 
 ```bash
 npm install
-cp .env.example .env   # add your ANTHROPIC_API_KEY
+cp .env.example .env   # fill in ANTHROPIC_API_KEY, ELEVENLABS_API_KEY, ELEVENLABS_AGENT_ID, DATABASE_URL
 npm run dev            # http://localhost:3000
 ```
+
+All four env vars are required — see [`.env.example`](.env.example).
 
 ## Scripts
 

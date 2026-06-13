@@ -1,0 +1,19 @@
+{
+  "call_id": "fixture-discovery-001",
+  "call_type": "discovery",
+  "rubric_id": "discovery-v1",
+  "score_100": 57,
+  "band": "redo",
+  "weakest_item_id": 3,
+  "items": [
+    { "rubric_item_id": 1, "name": "Agenda set + buy-in", "weight": 5, "score_1_5": 4, "cite_ts_seconds": 0, "cite_quote": "I figured we'd start with a quick agenda", "rationale": "Explicit agenda signposted and buyer confirmed." },
+    { "rubric_item_id": 2, "name": "Question depth & spread", "weight": 15, "score_1_5": 3, "cite_ts_seconds": 20, "cite_quote": "tell me about how you handle collections today", "rationale": "Some open questions but under the 11+ target and uneven spread." },
+    { "rubric_item_id": 3, "name": "Pain quantified in $ or days", "weight": 20, "score_1_5": 2, "cite_ts_seconds": 62, "cite_quote": "it's a problem", "rationale": "Pain stayed qualitative — no number extracted despite a direct ask." },
+    { "rubric_item_id": 4, "name": "Economic Buyer named", "weight": 10, "score_1_5": 3, "cite_ts_seconds": 90, "cite_quote": "loop in our controller, Dana", "rationale": "A second name surfaced but approval process not probed." },
+    { "rubric_item_id": 5, "name": "Champion test", "weight": 10, "score_1_5": 4, "cite_ts_seconds": 118, "cite_quote": "Dana's been pushing for this", "rationale": "Contact volunteered internal pull and named frustration." },
+    { "rubric_item_id": 6, "name": "Multi-thread setup", "weight": 10, "score_1_5": 2, "cite_ts_seconds": 150, "cite_quote": "just me and finance", "rationale": "No committee mapped; single-threaded buying history." },
+    { "rubric_item_id": 7, "name": "Talk ratio 40-46% rep", "weight": 10, "score_1_5": 3, "cite_ts_seconds": 0, "cite_quote": "then we can see if there's a fit", "rationale": "Roughly balanced, no long monologue, but slightly rep-heavy in spots." },
+    { "rubric_item_id": 8, "name": "Implication question landed", "weight": 10, "score_1_5": 2, "cite_ts_seconds": 182, "cite_quote": "hard to say", "rationale": "Implication attempted but elicited no buyer-stated consequence number." },
+    { "rubric_item_id": 9, "name": "Next step locked", "weight": 10, "score_1_5": 4, "cite_ts_seconds": 200, "cite_quote": "Let's lock Thursday at 2pm with you and Dana", "rationale": "Specific date and attendees; agenda could be sharper." }
+  ]
+}
